@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1bd4afaaf0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Noto+Serif&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="libs/slick/slick.css">
+    <link rel="stylesheet" href="libs/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Amentis Tale</title>
+</head>
+
+<body>
+    <header class="header">
+        <ul class="header__list">
+            <li class="header__item"> 
+                <a href="#">
+                    <img class="logo" src="img/logo.png" alt="logo">
+                </a>
+            </li>
+            <li class="header__item header__menu"><a href="#">Каталог</a></li>
+            <li class="header__item header__menu"><a href="#">Отзывы</a></li>
+            <li class="header__item header__menu"><a href="#">Заказ и Доставка</a></li>
+            <li class="header__icons">
+                <ul>
+                    <li><a href="#">
+                            <i class="fa-solid fa-magnifying-glass" id="search" onmousedown="viewDiv()"></i>
+                            <i class="fa-solid fa-xmark" id="close" onmousedown="closeDiv()" ></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-hat-wizard"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div id="form-wrap">
+            <form class="search__form" method="post" action="#"  id="#"> 
+            <input class="subscribe__form-text" type="text" placeholder="Поиск..." name="name"> 
+            <input class="subscribe__form-button" type="submit" name="submit" value="Search"> 
+        </form>
+        </div>
+    </header>
+    <section class="bkg">
+        <h2 class="visually-hidden">Amentis tale</h2>
+        <div>
+            <img class="bkg__img" src="img/bkg_img.jpg" alt="bkg">
+        </div>
+    </section>
+    <section class="description">
+        <h1 class="description__title title">Amentis tale</h1>
+        <h2 class="description__sub-title sub-title">украшения ручной работы</h2>
+        <div class="description__wrp">
+            <div>
+                <p class="description__text">Украшения, созданные вручную с использованием самых лучших минералов, отобранных с любовью.</p>
+                <p class="description__text">Сказки и мифы, лес и волшебные существа воплотились в украшениях маленькой мастерской Amentis Tale.</p>
+                <button class="description__button button">Заказать</button>
+            </div>
+            <div>
+                <img class="description__img" src="img/bkg_img-two.jpg" alt="photo">
+            </div>
+        </div>
+    </section>
+    <section class="product">
+        <h2 class="visually-hidden">Товары</h2>
+        <div class="product__list">
+            <div class="product__item">
+                <a class="product__link" href="#">
+                    <div class="rectangle">Кольца</div>
+                    <img class="product__img" src="img/ring.jpg" alt="ring">
+                </a>
+            </div>
+            <div class="product__item">
+                <a class="product__link" href="#">
+                    <div class="rectangle">Броши</div>
+                    <img class="product__img" src="img/brooches.jpg" alt="brooches">
+                </a>
+            </div>
+            <div class="product__item">
+                <a class="product__link" href="#">
+                    <div class="rectangle">Серьги</div>
+                    <img class="product__img" src="img/earrings.jpg" alt="earrings">
+                </a>
+            </div>
+            <div class="product__item">
+                <a class="product__link" href="#">
+                    <div class="rectangle">Подвески</div>
+                    <img class="product__img" src="img/pendent.jpg" alt="pendent">
+                </a>
+            </div>
+            <div class="product__item order-item">
+                <a class="product__link" href="#">
+                    <div class="rectangle">На заказ</div>
+                    <img class="product__img" src="img/order2.jpg" alt="order">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="news">
+        <h2 class="news__title title">Новинки</h2>
+            <div class="news__list ">
+                <div class="news__item">
+                    <img src="img/new1.jpg" alt="p">
+                    <!-- <div class="news__item-discription">
+                        <p>Описание товара <br> Материал: <br> Размер: </p>
+                    </div> -->
+                    <div>
+                        <p>Название товара</p>
+                        <p>9 999 &#x20bd</p>
+                    </div>
+                </div>
+                <div class="news__item">
+                    <img src="img/new2.jpg" alt="p">
+                    <p>Название товара</p>
+                    <p>9 999 &#x20bd</p>
+                </div>
+                <div class="news__item">
+                    <img src="img/new3.jpg" alt="p">
+                    <p>Название товара</p>
+                    <p>9 999 &#x20bd</p>
+                </div>
+                <div class="news__item">
+                    <img src="img/new4.jpg" alt="p">
+                    <p>Название товара</p>
+                    <p>9 999 &#x20bd</p>
+                </div>
+                <div class="news__item">
+                    <img src="img/new5.jpg" alt="p">
+                    <p>Название товара</p>
+                    <p>9 999 &#x20bd</p>
+                </div>
+                <div class="news__item">
+                    <img src="img/new6.jpg" alt="p">
+                    <p>Название товара</p>
+                    <p>9 999 &#x20bd</p>
+                </div>
+                <div class="news__item">
+                    <img src="img/new7.jpg" alt="p">
+                    <p>Название товара</p>
+                    <p>9 999 &#x20bd</p>
+                </div>
+                <div class="news__item">
+                    <img src="img/new8.jpg" alt="p">
+                    <p>Название товара</p>
+                    <p>9 999 &#x20bd</p>
+                </div>
+                <div class="news__item">
+                    <img src="img/new9.jpg" alt="p">
+                    <p>Название товара</p>
+                    <p>9 999 &#x20bd</p>
+                </div>
+                <div class="news__item">
+                    <img src="img/new10.jpg" alt="p">
+                    <p>Название товара</p>
+                    <p>9 999 &#x20bd</p>
+                </div>
+            </div>
+    </section>
+    <section class="subscribe">
+        <h2 class="subscribe__title title">Рассылка</h2>
+        <p class="subscribe__text sub-title">Получите -10% на первую покупку за подписку</p>
+        <form class="subscribe__form" method='post' action='#'>
+            <input class="subscribe__form-text" type='text' name='e_mail' placeholder='Ваш Email'>
+            <input class="subscribe__form-button" type='submit' value='Подписаться'>
+        </form>
+    </section>
+    <footer>
+        <ul class="footer__list">
+            <li class="footer__title">Покупателям
+                <ul>
+                    <li class="footer__item"><a href="#">Личный кабинет</a></li>
+                    <li class="footer__item"><a href="#">Доставка</a></li>
+                    <li class="footer__item"><a href="#">Оплата</a></li>
+                    <li class="footer__item"><a href="#">Возврат и обмен</a></li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-vk"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a></li>
+                </ul>
+            </li>
+            <li class="footer__title">Информация
+                <ul>
+                    <li class="footer__item"><a href="#">О нас</a></li>
+                    <li class="footer__item"><a href="#">Вопрос / Ответ</a></li>
+                    <li class="footer__item"><a href="#">Правовая информация</a></li>
+                    <li class="footer__item"><a href="#">Обратная связь</a></li>
+                    <li class="footer__item"><a href="#">Размеры колец</a></li>
+            </ul>
+        </li>
+        </ul>
+        <p class="footer__copy">Портнова Виктория &copy; 2022</p>
+    </footer>
+    
+    <script src="libs/jquery.js"></script>
+    <script src="libs/slick/slick.min.js"></script>
+    
+    <script src="js/main.js" ></script>
+</body>
+
+</html>   
