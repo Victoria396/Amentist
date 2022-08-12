@@ -360,7 +360,7 @@ input {
 }
 
 footer {
-    background-image: url(img/bkg_img-footer.jpg);
+    background-image: url(../img/bkg_img-footer.jpg);
 }
 
 .footer__list {
