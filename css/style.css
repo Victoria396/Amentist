@@ -459,7 +459,7 @@ footer {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 370px) {
     .sub-title {
         font-size: 15px;
         width: 205px;
